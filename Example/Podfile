@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YZXUIKit_Example' do
+  pod 'YZXUIKit', :path => '../'
+
+  target 'YZXUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

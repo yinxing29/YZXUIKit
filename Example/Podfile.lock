@@ -1,0 +1,16 @@
+PODS:
+  - YZXUIKit (0.1.0)
+
+DEPENDENCIES:
+  - YZXUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  YZXUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YZXUIKit: 755acee8dabdd35d5d4db58ee14cedceedd6a6ee
+
+PODFILE CHECKSUM: b12c996649b70ad42ca5ed400b9ac79b8171e678
+
+COCOAPODS: 1.15.2

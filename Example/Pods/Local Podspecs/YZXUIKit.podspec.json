@@ -1,0 +1,22 @@
+{
+  "name": "YZXUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of YZXUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yinxing/YZXUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinxing": "yinxing@lanjingren.com"
+  },
+  "source": {
+    "git": "https://github.com/yinxing/YZXUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YZXUIKit/Classes/**/*"
+}
