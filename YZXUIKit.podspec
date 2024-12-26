@@ -24,13 +24,23 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/yinxing29/YZXUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yinxing' => 'yinxing@lanjingren.com' }
+  s.author           = { 'yinxing' => 'yinxing29@sine.com' }
   s.source           = { :git => 'https://github.com/yinxing29/YZXUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'YZXUIKit/Classes/**/*'
+#  s.source_files = 'YZXUIKit/Classes/**/*'
+  
+  s.swift_version = ['4.2', '5']
+  
+  s.subspec 'YZXScrollView' do |ss|
+     ss.source_files = 'YZXUIKit/Classes/YZXScrollView/**/*'
+  end
+  
+  s.subspec 'YZXDevice' do |ss|
+      ss.source_files = 'YZXUIKit/Classes/YZXDevice/**/*'
+  end
   
   # s.resource_bundles = {
   #   'YZXUIKit' => ['YZXUIKit/Assets/*.png']

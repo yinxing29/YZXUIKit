@@ -1,4 +1,4 @@
-framework module YZXUIKit {
+module YZXUIKit {
   umbrella header "YZXUIKit-umbrella.h"
 
   export *

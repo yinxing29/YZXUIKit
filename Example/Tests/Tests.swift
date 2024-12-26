@@ -1,5 +1,4 @@
 import XCTest
-import YZXUIKit
 
 class Tests: XCTestCase {
     

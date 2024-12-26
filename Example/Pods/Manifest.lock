@@ -1,16 +1,29 @@
 PODS:
-  - YZXUIKit (0.1.0)
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - YZXUIKit (0.1.0):
+    - YZXUIKit/YZXDevice (= 0.1.0)
+    - YZXUIKit/YZXScrollView (= 0.1.0)
+  - YZXUIKit/YZXDevice (0.1.0)
+  - YZXUIKit/YZXScrollView (0.1.0)
 
 DEPENDENCIES:
+  - LookinServer
   - YZXUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
 
 EXTERNAL SOURCES:
   YZXUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YZXUIKit: 755acee8dabdd35d5d4db58ee14cedceedd6a6ee
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  YZXUIKit: ea33367e5b754256686cec3eb59a99a86b7902e9
 
-PODFILE CHECKSUM: b12c996649b70ad42ca5ed400b9ac79b8171e678
+PODFILE CHECKSUM: a1e0ce04574bd581a8fe5be2fd53484946efb67d
 
 COCOAPODS: 1.15.2

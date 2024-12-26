@@ -3,20 +3,34 @@
   "version": "0.1.0",
   "summary": "A short description of YZXUIKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yinxing/YZXUIKit",
+  "homepage": "https://github.com/yinxing29/YZXUIKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yinxing": "yinxing@lanjingren.com"
+    "yinxing": "yinxing29@sine.com"
   },
   "source": {
-    "git": "https://github.com/yinxing/YZXUIKit.git",
+    "git": "https://github.com/yinxing29/YZXUIKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "YZXUIKit/Classes/**/*"
+  "swift_versions": [
+    "4.2",
+    "5"
+  ],
+  "subspecs": [
+    {
+      "name": "YZXScrollView",
+      "source_files": "YZXUIKit/Classes/YZXScrollView/**/*"
+    },
+    {
+      "name": "YZXDevice",
+      "source_files": "YZXUIKit/Classes/YZXDevice/**/*"
+    }
+  ],
+  "swift_version": "5"
 }
